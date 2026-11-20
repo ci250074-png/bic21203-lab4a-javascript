@@ -31,7 +31,7 @@ This repository contains client-side JavaScript implementations for Lab 4a, demo
 ### Question 2: Smart Number Validator (`Q2/`)
 | Initial State | Input: `5` (< 10) |
 | :---: | :---: |
-| <img src="screenshots/q2-0.png" width="350"> | <img src="screenshots/q2-5.png" width="350"> |
+| <img src="screenshots/q2-1.png" width="350"> | <img src="screenshots/q2-5.png" width="350"> |
 
 | Input: `10` (= 10) | Input: `15` (> 10) |
 | :---: | :---: |
