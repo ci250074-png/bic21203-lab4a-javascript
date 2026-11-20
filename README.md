@@ -32,7 +32,7 @@ This repository contains client-side JavaScript implementations for Lab 4a, demo
 
 ### Question 2: Smart Number Validator (`Q2/`)
 **Before Input:**  
-![Q2 Before](screenshots/q2-0.png)
+![Q2 Before](screenshots/q2-1.png)
 
 **After Input (`5`, `10`, `15`, `10.5`, `abc`, Empty):**  
 ![Q2 Test 5](screenshots/q2-5.png)
