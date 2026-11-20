@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Question 2 - Smart Number Validator</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #0d0d0d;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      color: #b03048;
+    }
+
+    .card-box {
+      background-color: #161414;
+      border: 2px solid #800020;
+      border-radius: 14px;
+      padding: 40px 50px;
+      text-align: center;
+      max-width: 440px;
+      width: 90%;
+      box-shadow: 0 12px 30px rgba(128, 0, 32, 0.45);
+    }
+
+    h2 {
+      font-size: 1.4rem;
+      color: #d95b72;
+      margin-bottom: 10px;
+    }
+
+    .instruction {
+      font-size: 0.95rem;
+      color: #a85263;
+      margin-bottom: 22px;
+      line-height: 1.5;
+    }
+
+    label {
+      display: block;
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: #c94a63;
+      margin-bottom: 12px;
+    }
+
+    .input-group {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    #userInput {
+      flex: 1;
+      padding: 12px 14px;
+      font-size: 1rem;
+      color: #e06c82;
+      background-color: #0d0d0d;
+      border: 2px solid #800020;
+      border-radius: 8px;
+      outline: none;
+    }
+
+    #userInput::placeholder {
+      color: #702938;
+    }
+
+    #userInput:focus {
+      border-color: #a31636;
+      box-shadow: 0 0 8px rgba(128, 0, 32, 0.6);
+    }
+
+    #checkBtn {
+      background-color: #800020;
+      color: #f5e6e8;
+      border: 2px solid #a31636;
+      border-radius: 8px;
+      padding: 12px 22px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: 0 4px 12px rgba(128, 0, 32, 0.5);
+      transition: background-color 0.2s ease, transform 0.15s ease;
+    }
+
+    #checkBtn:hover {
+      background-color: #5c0017;
+      transform: translateY(-2px);
+    }
+
+    #checkBtn:active {
+      transform: translateY(0);
+    }
+
+    #result {
+      min-height: 1.5rem;
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #c94a63;
+    }
+  </style>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="card-box">
+    <h2>Smart Number Validator</h2>
+    <p class="instruction">Enter a number below and click "Check" to compare its value against 10.</p>
+    <label for="userInput">Enter a number:</label>
+    <div class="input-group">
+      <input type="text" id="userInput" placeholder="Enter a number">
+      <button id="checkBtn" type="button">Check</button>
+    </div>
+    <p id="result" role="status" aria-live="polite"></p>
+  </main>
+</body>
+</html>

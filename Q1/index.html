@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Question 1 - Interactive Text Changer</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #0d0d0d;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      color: #b03048;
+    }
+
+    .card-box {
+      background-color: #161414;
+      border: 2px solid #800020;
+      border-radius: 14px;
+      padding: 40px 50px;
+      text-align: center;
+      max-width: 440px;
+      width: 90%;
+      box-shadow: 0 12px 30px rgba(128, 0, 32, 0.45);
+    }
+
+    h2 {
+      font-size: 1.4rem;
+      color: #d95b72;
+      margin-bottom: 10px;
+    }
+
+    .instruction {
+      font-size: 0.95rem;
+      color: #a85263;
+      margin-bottom: 22px;
+      line-height: 1.5;
+    }
+
+    #message {
+      font-size: 1.35rem;
+      font-weight: 600;
+      color: #c94a63;
+      margin-bottom: 24px;
+    }
+
+    #changeBtn {
+      background-color: #800020;
+      color: #f5e6e8;
+      border: 2px solid #a31636;
+      border-radius: 8px;
+      padding: 12px 24px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: 0 4px 12px rgba(128, 0, 32, 0.5);
+      transition: background-color 0.2s ease, transform 0.15s ease;
+    }
+
+    #changeBtn:hover {
+      background-color: #5c0017;
+      transform: translateY(-2px);
+    }
+
+    #changeBtn:active {
+      transform: translateY(0);
+    }
+  </style>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="card-box">
+    <h2>Interactive Text Changer</h2>
+    <p class="instruction">Click the "Change Message" button below to update the greeting text.</p>
+    <div id="myElement">
+      <p id="message">Welcome to my website!</p>
+    </div>
+    <button id="changeBtn" type="button">Change Message</button>
+  </main>
+</body>
+</html>
