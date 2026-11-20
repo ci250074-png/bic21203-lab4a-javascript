@@ -1,7 +1,7 @@
 # BIC21203 - Lab 4a: Client-Side Scripting (JavaScript)
 
 **Name:** ANIS NAJEHA BINTI SHAMSUDDIN  
-**Student ID:** CI250074 
+**Student ID:** CI250074   
 **Course:** BIC21203 Web Development  
 
 ---
