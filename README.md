@@ -22,31 +22,28 @@ This repository contains client-side JavaScript implementations for Lab 4a, demo
 ## Output Screenshots
 
 ### Question 1: Interactive Text Changer (`Q1/`)
-**Before Click:**  
-![Q1 Before](screenshots/q1-1.png)
-
-**After Click:**  
-![Q1 After](screenshots/q1-2.png)
+| Before Click | After Click |
+| :---: | :---: |
+| <img src="screenshots/q1-1.png" width="350"> | <img src="screenshots/q1-2.png" width="350"> |
 
 ---
 
 ### Question 2: Smart Number Validator (`Q2/`)
-**Before Input:**  
-![Q2 Before](screenshots/q2-1.png)
+| Initial State | Input: `5` (< 10) |
+| :---: | :---: |
+| <img src="screenshots/q2-0.png" width="350"> | <img src="screenshots/q2-5.png" width="350"> |
 
-**After Input (`5`, `10`, `15`, `10.5`, `abc`, Empty):**  
-![Q2 Test 5](screenshots/q2-5.png)
-![Q2 Test 10](screenshots/q2-10.png)
-![Q2 Test 15](screenshots/q2-15.png)
-![Q2 Test 10.5](screenshots/q2-10.5.png)
-![Q2 Test abc](screenshots/q2-abc.png)
-![Q2 Empty](screenshots/q2-empty.png)
+| Input: `10` (= 10) | Input: `15` (> 10) |
+| :---: | :---: |
+| <img src="screenshots/q2-10.png" width="350"> | <img src="screenshots/q2-15.png" width="350"> |
+
+| Input: `10.5` (Decimal) | Input: `abc` (Invalid) | Input: Empty |
+| :---: | :---: | :---: |
+| <img src="screenshots/q2-10.5.png" width="250"> | <img src="screenshots/q2-abc.png" width="250"> | <img src="screenshots/q2-empty.png" width="250"> |
 
 ---
 
 ### Question 3: Dynamic Number Generator (`Q3/`)
-**Before Click:**  
-![Q3 Before](screenshots/q3-1.png)
-
-**After Click:**  
-![Q3 After](screenshots/q3-2.png)
+| Before Click | After Click |
+| :---: | :---: |
+| <img src="screenshots/q3-1.png" width="350"> | <img src="screenshots/q3-2.png" width="350"> |
