@@ -7,7 +7,7 @@
 ---
 
 ## Brief Explanation
-This repository contains client-side JavaScript implementations for Lab 4a, demonstrating DOM manipulation, event handling (`addEventListener`), input validation using conditional statements (`if...else if...else`), and dynamic HTML element generation using `for` loops.
+This repository contains client-side JavaScript solutions for Lab 4a. It demonstrates basic web interactivity, including updating text on button click (Q1), validating and comparing user number inputs using conditional statements (Q2), and generating a numbered list dynamically using a `for` loop (Q3).
 
 ---
 
